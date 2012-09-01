@@ -30,7 +30,7 @@ Install the gem:
 
 Require the gem before use it:
 
-    require "html5-beaufier"
+    require "html5-beautifier"
 
     puts "Hello World".beautify
 
@@ -48,4 +48,4 @@ If you have any questions or issues with HTML5 Beautifier, or if you like to rep
 
 ## License
 
-MIT License. Copyright (c) 2012 Jari Jokinen. See [LICENSE](https://github.com/jarijokinen/html5-beautifier/LICENSE) for further details.
+MIT License. Copyright (c) 2012 Jari Jokinen. See [LICENSE](https://github.com/jarijokinen/html5-beautifier/LICENSE.txt) for further details.
