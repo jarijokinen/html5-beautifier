@@ -13,6 +13,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = "http://jarijokinen.com/html5-beautifier"
 
   gem.files         = `git ls-files`.split($/)
-  #gem.test_files    = gem.files.grep(%r{^(spec)/})
   gem.require_paths = ["lib"]
+
+  s.add_dependency "rails"
+  s.add_dependency "nokogiri"
 end
