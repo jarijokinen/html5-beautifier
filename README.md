@@ -1,6 +1,12 @@
 # HTML5 Beautifier
 
-HTML5 Beautifier is an extension to Ruby that process an HTML5 document and reformat it with a correct indentation.
+[HTML5 Beautifier](http://jarijokinen.com/html5-beautifier) is an extension to Ruby that process an HTML5 document and reformat it with a correct indentation.
+
+## Features
+
+* Removes blank lines
+* Indents markup using two spaces by default
+* Does not touch preformatted elements
 
 ## Installation
 
@@ -28,11 +34,19 @@ Install the gem:
 
 ### Other Ruby applications
 
-Require the gem before use it:
+Require the gem:
 
     require "html5-beautifier"
 
+Then use it:
+
     puts "Hello World".beautify
+
+### Output
+
+The above example outputs:
+
+    
 
 ## Contributing
 
@@ -48,4 +62,4 @@ If you have any questions or issues with HTML5 Beautifier, or if you like to rep
 
 ## License
 
-MIT License. Copyright (c) 2012 Jari Jokinen. See [LICENSE](https://github.com/jarijokinen/html5-beautifier/blob/master/LICENSE.txt) for further details.
+MIT License. Copyright (c) 2012 [Jari Jokinen](http://jarijokinen.com). See [LICENSE](https://github.com/jarijokinen/html5-beautifier/blob/master/LICENSE.txt) for further details.
