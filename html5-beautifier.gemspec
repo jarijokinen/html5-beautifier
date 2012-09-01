@@ -8,13 +8,12 @@ Gem::Specification.new do |gem|
   gem.version       = Html5::Beautifier::VERSION
   gem.authors       = ["Jari Jokinen"]
   gem.email         = ["info@jarijokinen.com"]
-  gem.description   = %q{HTML5 Beautifier for Ruby on Rails}
-  gem.summary       = %q{HTML5 Beautifier plugin for Ruby on Rails}
+  gem.description   = %q{HTML5 Beautifier for Ruby}
+  gem.summary       = %q{HTML5 Beautifier for Ruby}
   gem.homepage      = "http://jarijokinen.com/html5-beautifier"
 
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "rails"
   gem.add_dependency "nokogiri"
 end

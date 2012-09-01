@@ -1,3 +1,4 @@
+require "nokogiri"
 require "html5-beautifier/core_ext/string/beautify"
 require "html5-beautifier/version"
 
