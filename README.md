@@ -46,7 +46,12 @@ Then use it:
 
 The above example outputs:
 
-    
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <p>Hello World</p>
+      </body>
+    </html>
 
 ## Contributing
 
