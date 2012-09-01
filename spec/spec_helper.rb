@@ -12,3 +12,6 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
+def load_template(name)
+  File.read(File.expand_path(File.join("spec", "html", "#{name}.html")))
+end
