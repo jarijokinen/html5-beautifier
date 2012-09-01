@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
 
-  s.add_dependency "rails"
-  s.add_dependency "nokogiri"
+  gem.add_dependency "rails"
+  gem.add_dependency "nokogiri"
 end
